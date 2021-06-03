@@ -1,0 +1,71 @@
+img {
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    border: 5px dotted brown;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: 5px outset blue;
+     background: linear-gradient(to bottom, #3333cc 0%, #00ffcc 100%);
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    border: 10px inset #ffff66;
+    margin: 5px;
+   background: linear-gradient(to bottom, #009900 0%, #993300 100%);
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    border: 10px inset #ffff66;
+    background: linear-gradient(to bottom, #009900 0%, #993300 100%);
+}
+
+.picture {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pictures {
+    border: 5px ridge brown;
+    padding: 10px;
+    float: left;
+    background: linear-gradient(to bottom, #cc3399 0%, #ff0000 100%);
+
+}
+
+.happy {
+    text-align: center;
+}
+
+.align {
+    display: flex;
+    justify-content:space-between;
+   
+    margin-top: 0px;
+}
+
+.coding {
+    justify-content: center;
+    border: 5px dashed #ff3399;
+    text-align: center;
+    margin: 50px;
+   background: linear-gradient(to bottom, #99ccff 0%, #ffccff 100%);
+
+
+}
+
+.achievements { border: 5px dashed purple;
+    width: 210px;
+   background: linear-gradient(to bottom, #cc3399 0%, #ff0000 100%);
+}
+body {color: AliceBlue;
+   font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+    background: linear-gradient(to bottom, #0066ff 0%, #990033 100%);}
